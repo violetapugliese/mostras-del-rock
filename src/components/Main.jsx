@@ -1,7 +1,7 @@
 import React from "react";
 
 const Main = ({children}) => (
-  <main className="xl:px-60 md:px-24 md:flex md:items-start md:justify-between">
+  <main className="xl:px-60 lg:px-24 lg:flex lg:items-start lg:justify-between">
     {children}
   </main>
 );

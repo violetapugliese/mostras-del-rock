@@ -4,34 +4,59 @@
 
 @tailwind utilities;
 
-.video{
-    width: 100%;
-    height: 0;
-    padding-top: 56.25%;
-    background-color: #282c33;
-    position: relative;
+.bgImg {
+  background-color: #000000;
+  background-image: url(https://www.rollingstone.com/wp-content/uploads/2018/09/aretha-header-2.jpg?resize=3000,1500&w=1400);
+  /* background-size: cover; */
+  background-position-x: 380px;
+  background-repeat: no-repeat;
+}
+.bgImg::after {
+  content: "";
+  background: url(https://www.rollingstone.com/wp-content/uploads/2018/09/aretha-header-2.jpg?resize=3000,1500&w=1400);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.video {
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  background-color: #282c33;
+  position: relative;
 }
 .video_export {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    bottom:0;
-    left:0;
-    right:0;
-    position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
 }
 
-::-webkit-scrollbar{
-    width: 0.5rem;
-    border-radius: 10px;
-    background-color: #000000;
+::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 10px;
+  background-color: #000000;
 }
-::-webkit-scrollbar-track{
-    border-radius: 10px;
-    background-color: #6b6b6b;
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #6b6b6b;
 }
-::-webkit-scrollbar-thumb{
-    height: 30px;
-    border-radius: 10px;
-    background-color: #4e4e4e;
+::-webkit-scrollbar-thumb {
+  height: 30px;
+  border-radius: 10px;
+  background-color: #4e4e4e;
+}
+.photoWidth {
+  min-width: 56px;
+}
+.playVideoWidth {
+  min-width: 32px;
 }

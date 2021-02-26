@@ -1,8 +1,10 @@
 import React from "react";
+import logo from '../assets/static/logomdr.png'
 
 const Header = () => (
-  <header className="fixed flex justify-between h-10 w-full p-3 bg-black text-white font-semibold uppercase z-50">
-    <h1 className="text-base">Mostras del r☼ck</h1>
+  <header className="fixed flex justify-between h-auto w-full p-3 text-white font-semibold uppercase z-50">
+    <img src={logo}  className="w-20" alt="mostras del rock"/>
+    <h1 className="text-base hidden">Mostras del rock</h1>
     <button className="text-base">...</button>
   </header>
 );

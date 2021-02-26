@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
 import '../styles.css';
 
 const App = () => (
-    <div className="bg-black">
+    <div className="bgImg">
         <Header />
         <Serch />
         
