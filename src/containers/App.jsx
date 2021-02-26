@@ -5,6 +5,9 @@ import Main from '../components/Main'
 import Video from '../components/Video'
 import VideoPlayer from '../components/VideoPlayer'
 import VideoData from '../components/VideoData'
+import List from '../components/List'
+import ListItem from '../components/ListItem'
+import Footer from '../components/Footer'
 import '../styles.css';
 
 const App = () => (
@@ -17,7 +20,32 @@ const App = () => (
                 <VideoPlayer/>
                 <VideoData/>
             </Video>
+            <List>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+                <ListItem/>
+            </List>
         </Main>
+        <Footer/>
     </div>
 );
 

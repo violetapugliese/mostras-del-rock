@@ -20,3 +20,18 @@
     right:0;
     position: absolute;
 }
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+    border-radius: 10px;
+    background-color: #000000;
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: #6b6b6b;
+}
+::-webkit-scrollbar-thumb{
+    height: 30px;
+    border-radius: 10px;
+    background-color: #4e4e4e;
+}
