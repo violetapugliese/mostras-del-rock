@@ -4,6 +4,21 @@
 
 @tailwind utilities;
 
+.myShadow{
+  box-shadow: 0 10px 15px -3px rgba(121, 200, 139, 0.1), 0 4px 6px -2px rgba(121, 200, 139, 0.5);
+}
+.myBg{
+  background-color: rgb(121, 200, 139);
+}
+.myBorder{
+  border-color: rgba(121, 200, 139, 0.836);
+}
+.myText{
+  color: #79C88B;
+}
+html{
+  background-color: #11100C;
+}
 .bgImg {
   background-color: #000000;
   background-image: url(https://www.rollingstone.com/wp-content/uploads/2018/09/aretha-header-2.jpg?resize=3000,1500&w=1400);
@@ -27,7 +42,7 @@
   width: 100%;
   height: 0;
   padding-top: 56.25%;
-  background-color: #282c33;
+  background-color: #000000;
   position: relative;
 }
 .video_export {

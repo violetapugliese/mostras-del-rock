@@ -1,7 +1,7 @@
 import React from "react";
 
 const VideoData = () => (
-  <div className="w-full shadow-md bg-white rounded-b-xl p-4">
+  <div className="w-full shadow-md myBorder bg-black text-white border-2 rounded-b-xl p-4 myShadow">
     <h3 id="nameArtist" className="text-lg font-semibold">
       Nombre de Artista
     </h3>
