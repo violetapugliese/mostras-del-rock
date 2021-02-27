@@ -2,7 +2,7 @@ import React from "react";
 import serchIcon from "../assets/static/serchIcon.png";
 const Serch = () => (
   <section className="flex justify-center items-center h-auto w-full pt-20 mb-8 lg:px-24 xl:px-60 lg:flex lg:flex-row lg:items-center lg:justify-between">
-    <div className="w-3/4 flex justify-center items-center ">
+    <div className="w-4/6 flex justify-center items-center ">
       <input
         type="text"
         placeholder="Buscar..."

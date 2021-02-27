@@ -17,7 +17,7 @@
   color: #79C88B;
 }
 html{
-  background-color: #11100C;
+  background-color: #000000;
 }
 .bgImg {
   background-color: #000000;
@@ -25,18 +25,6 @@ html{
   /* background-size: cover; */
   background-position-x: 380px;
   background-repeat: no-repeat;
-}
-.bgImg::after {
-  content: "";
-  background: url(https://www.rollingstone.com/wp-content/uploads/2018/09/aretha-header-2.jpg?resize=3000,1500&w=1400);
-  background-repeat: no-repeat;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 .video {
   width: 100%;

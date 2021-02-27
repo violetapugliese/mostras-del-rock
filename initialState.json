@@ -1,0 +1,209 @@
+{
+    "initialState": {
+        "mdr": [
+            {
+                "id": "1",
+                "name": "4 Non blondes (banda)",
+                "year": "1989 - 1995",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=6NXnxTNIWkc"
+            },
+            {
+                "id": "2",
+                "name": "Alanis Morissette",
+                "year": "1974 - presente",
+                "country": "CND",
+                "music": "https://www.youtube.com/watch?v=OOgpT5rEKIU"
+            },
+            {
+                "id": "3",
+                "name": "Annie Lenox",
+                "year": "1954 - presente",
+                "country": "UK",
+                "music": "https://www.youtube.com/watch?v=HG7I4oniOyA"
+            },
+            {
+                "id": "4",
+                "name": "Aretha Franklin",
+                "year": "1942 - 2018",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=ykxuu8LNluY"
+            },
+            {
+                "id": "5",
+                "name": "Bjork",
+                "year": "1965 - presente",
+                "country": "ISL",
+                "music": "https://www.youtube.com/watch?v=-W5OfUzwyyw"
+            },
+            {
+                "id": "6",
+                "name": "Carole King",
+                "year": "1942 - presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=VbMI4imWFzY"
+            },
+            {
+                "id": "7",
+                "name": "Chrissie Hynde",
+                "year": "1951 - presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=UQ8kbordCAg"
+            },
+            {
+                "id": "8",
+                "name": "Cordell Jackson",
+                "year": "1923 - 2004",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=TNuYpPVFuJ8"
+            },
+            {
+                "id": "9",
+                "name": "Debbie Harry",
+                "year": "1945 - presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=NbdRLyixJpc"
+            },
+            {
+                "id": "10",
+                "name": "Grace Slick",
+                "year": "1939 - presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=bv98M7iZwAI"
+            },
+            {
+                "id": "11",
+                "name": "Janis Joplin",
+                "year": "1943 - 1970",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=zmRctr86SVE"
+            },
+            {
+                "id": "12",
+                "name": "Jayne County",
+                "year": "1947 - presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=x8iCLbnu1rk"
+            },
+            {
+                "id": "13",
+                "name": "Joan Jett",
+                "year": "1958 -presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=wMsazR6Tnf8"
+            },
+            {
+                "id": "14",
+                "name": "Kathleen Hanna",
+                "year": "1968 - presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=hAg9bItrsII"
+            },
+            {
+                "id": "15",
+                "name": "Laura Nyro",
+                "year": "1947 - 1997 ",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=raxswPy0bW4"
+            },
+            {
+                "id": "16",
+                "name": "Lydia Lunch",
+                "year": "1959 - presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=VUWDrGGX9Ao"
+            },
+            {
+                "id": "17",
+                "name": "Mammie Smith",
+                "year": "1883 - 1946",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=8AN3pxrRzMM"
+            },
+            {
+                "id": "18",
+                "name": "Maureen Ann 'Moe' Tucker",
+                "year": "1944 - pesente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=3qK82JvRY5s"
+            },
+            {
+                "id": "19",
+                "name": "Memphis Minnie",
+                "year": "1897 - 1973",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=rD2GUKwqliU"
+            },
+            {
+                "id": "20",
+                "name": "Odetta Holmes",
+                "year": "1930 - 2008",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=KPyCJIPtJps"
+            },
+            {
+                "id": "21",
+                "name": "She-Devils (banda)",
+                "year": "1963 - presente",
+                "country": "ARG",
+                "music": "https://www.youtube.com/watch?v=fjAR7yNuf4Y"
+            },
+            {
+                "id": "22",
+                "name": "Patti Smith",
+                "year": "1946 - presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=M_ciiCyxOJA"
+            },
+            {
+                "id": "23",
+                "name": "PJ Harvey",
+                "year": "1969 - presente",
+                "country": "UK",
+                "music": "https://www.youtube.com/watch?v=STxXS5lLunE"
+            },
+            {
+                "id": "24",
+                "name": "Ronnie Spector Siouxsie",
+                "year": "1943 - presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=OP81fPz1ujA"
+            },
+            {
+                "id": "25",
+                "name": "Rosetta Tharpe",
+                "year": "1915 -1973",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=Y9a49oFalZE"
+            },
+            {
+                "id": "26",
+                "name": "Shirley Manson",
+                "year": "1966 - presente",
+                "country": "UK",
+                "music": "https://www.youtube.com/watch?v=ypr18UmxOas"
+            },
+            {
+                "id": "27",
+                "name": "Suzi Quatro",
+                "year": "1950 - presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=xYoogY-UGio"
+            },
+            {
+                "id": "28",
+                "name": "Wanda Jackson",
+                "year": "1937 - presente",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=BnULGVbhPcY"
+            },
+            {
+                "id": "29",
+                "name": "Wendy O Williams",
+                "year": "1949 - 1998",
+                "country": "USA",
+                "music": "https://www.youtube.com/watch?v=KQ4E0OpPH4U"
+            }
+        ]
+    }
+}
