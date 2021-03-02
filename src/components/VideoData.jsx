@@ -1,15 +1,15 @@
 import React from "react";
 
-const VideoData = () => (
+const VideoData = ({name, year, country}) => (
   <div className="w-full shadow-md myBorder bg-black text-white border-2 rounded-b-xl p-4 myShadow">
     <h3 id="nameArtist" className="text-lg font-semibold">
-      Nombre de Artista
+      {name}
     </h3>
     <p id="yearsArtist" className="text-sm">
-      1900 - presente
+      {year}
     </p>
     <p id="countryArtist" className="text-sm">
-      USA
+      {country}
     </p>
     <h4 id="videoArtist" className="text-md">
       Nombre de la canción - Artista

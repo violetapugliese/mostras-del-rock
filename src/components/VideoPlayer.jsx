@@ -1,16 +1,17 @@
 import React from "react";
+import ReactPlayer from "react-player";
 
-const VideoPlayer = () => (
+const VideoPlayer = ({music}) => (
   <div className="video">
-    <iframe
+    <ReactPlayer
       className="video_export"
-      width="560"
+      width="56"
       height="315"
-      src="https://www.youtube.com/embed/PqN8IN8TMC8"
+      url={music}
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
-    ></iframe>
+    />
   </div>
 );
 
