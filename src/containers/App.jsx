@@ -11,20 +11,19 @@ import Footer from "../components/Footer";
 import useInitialState from "../hooks/useInitialState";
 import "../styles.css";
 
+// const API = "http://localhost:3000/initialState";
 const API = "https://violetapugliese.github.io/mdrAPIRest/db.json";
 
 const App = () => {
   const initialState = useInitialState(API);
   return initialState.length === 0 ? (
-    <h1 className="text-white">Loading</h1>
+    <h1>Loading</h1>
   ) : (
     <div className="">
-
       <Header />
       <Serch />
 
       <Main>
-        
         <Video>
           <VideoPlayer />
           <VideoData />
@@ -37,7 +36,7 @@ const App = () => {
             ))}
           </List>
         }
-
+       
       </Main>
       <Footer />
     </div>
