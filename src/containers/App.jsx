@@ -11,8 +11,8 @@ import Footer from "../components/Footer";
 import useInitialState from "../hooks/useInitialState";
 import "../styles.css";
 
-// const API = "http://localhost:3000/initialState";
-const API = "https://violetapugliese.github.io/mdrAPIRest/db.json";
+const API = "http://localhost:3000/initialState";
+// const API = "https://violetapugliese.github.io/mdrAPIRest/db.json";
 
 const App = () => {
   const initialState = useInitialState(API);
