@@ -63,3 +63,12 @@ html{
 .playVideoWidth {
   min-width: 32px;
 }
+.heightList{
+  height: 30rem;
+}
+.select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}

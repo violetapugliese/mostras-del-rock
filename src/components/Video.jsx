@@ -26,8 +26,7 @@ const Video = ({}) => {
   let music;
   let year;
   let country;
-  let name
-
+  let name;
 
   const found = (id) => {
     mostra.mdr.find((item) => {
@@ -35,11 +34,20 @@ const Video = ({}) => {
         music = item.music;
         year = item.year;
         country = item.country;
-        name = item.name
+        name = item.name;
       }
     });
   };
-  found(id);
+  
+  if (id == null) {
+    music = "https://www.youtube.com/watch?v=ykxuu8LNluY";
+    name = "Aretha Franklin";
+    year = "1942 - 2018";
+    country = "USA";
+  } else {
+    found(id);
+  }
+
   // console.log(music);
 
   return (
@@ -52,12 +60,12 @@ const Video = ({}) => {
           url={`${music}`}
           frameBorder="0"
           controls
-          playing
+          // playing
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />
       </VideoPlayer>
-      <VideoData name={name} year={year} country={country}/>
+      <VideoData name={name} year={year} country={country} />
     </div>
   );
 };

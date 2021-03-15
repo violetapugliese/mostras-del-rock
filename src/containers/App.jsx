@@ -17,7 +17,6 @@ import List from "../components/List";
 import ListItem from "../components/ListItem";
 import Footer from "../components/Footer";
 import useInitialState from "../hooks/useInitialState";
-import ReactPlayer from "react-player";
 
 import "../styles.css";
 
@@ -25,11 +24,17 @@ import "../styles.css";
 const API = "https://violetapugliese.github.io/mdrAPIRest/db.json";
 
 const App = () => {
-  const data = useInitialState(API);
-  return data.length === 0 ? (
-    <h1>Loading</h1>
-  ) : (
 
+// const [video, setVideo] = useState([]);
+
+
+
+  const data = useInitialState(API);
+
+
+  return data.length === 0 ? (
+    <h1 className="text-white">Loading</h1>
+  ) : (
     <Router>
       <div className="app">
         <Header />
@@ -46,10 +51,11 @@ const App = () => {
           </Switch>
 
           {data.mdr.length > 0 && (
-            <List>
+            <List key="">
               {data.mdr.map((item) => (
                 <Link
                   to={`${item.id}`}
+                  key={item.id}
                   className="w-full flex items-center justify-center "
                 >
                   <ListItem key={item.id} {...item} />
