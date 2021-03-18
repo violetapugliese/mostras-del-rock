@@ -24,13 +24,9 @@ import "../styles.css";
 const API = "https://violetapugliese.github.io/mdrAPIRest/db.json";
 
 const App = () => {
-
-// const [video, setVideo] = useState([]);
-
-
+  // const [video, setVideo] = useState([]);
 
   const data = useInitialState(API);
-
 
   return data.length === 0 ? (
     <h1 className="text-white">Loading</h1>
@@ -38,7 +34,6 @@ const App = () => {
     <Router>
       <div className="app">
         <Header />
-        <Serch />
 
         <Main>
           <Switch>
@@ -50,19 +45,22 @@ const App = () => {
             </Route>
           </Switch>
 
-          {data.mdr.length > 0 && (
-            <List key="">
-              {data.mdr.map((item) => (
-                <Link
-                  to={`${item.id}`}
-                  key={item.id}
-                  className="w-full flex items-center justify-center "
-                >
-                  <ListItem key={item.id} {...item} />
-                </Link>
-              ))}
-            </List>
-          )}
+          <div className="flex flex-col items-center justify-between">
+            <Serch />
+            {data.mdr.length > 0 && (
+              <List key="">
+                {data.mdr.map((item) => (
+                  <Link
+                    to={`${item.id}`}
+                    key={item.id}
+                    className="w-full flex items-center justify-center "
+                  >
+                    <ListItem key={item.id} {...item} />
+                  </Link>
+                ))}
+              </List>
+            )}
+          </div>
         </Main>
 
         <Footer />

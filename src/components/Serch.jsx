@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import serchIcon from "../assets/static/serchIcon.png";
 
 const API = "https://violetapugliese.github.io/mdrAPIRest/db.json";
 
-const Serch = ({useInitialState}) => {
-
-  const [mostra, setMostra] = useState({ mdr: [] });
+const Serch = () => {
+const [mostra, setMostra] = useState({ mdr: [] });
 
   useEffect(() => {
     fetch(API)
@@ -14,24 +14,22 @@ const Serch = ({useInitialState}) => {
     return mostra;
   }, []);
 
-  console.log(mostra);
+  // console.log(mostra);
+
 
   return (
-    <section className="flex justify-center items-center h-auto w-full pt-20 mb-8 lg:px-24 xl:px-60 lg:flex lg:flex-row lg:items-center lg:justify-between">
-      <div className="w-4/6 flex justify-center items-center ">
+    // <section className="flex justify-center items-center h-auto w-full pt-20 mb-8 lg:px-24 xl:px-60 lg:flex lg:flex-row lg:items-center lg:justify-between">
+      <div className=" w-5/6 flex justify-center items-center ">
         <select
           name=""
           className="select w-5/6 h-8 text-md bg-black focus:outline-none myBorder text-white border-2 pl-4 pr-4 rounded-l-full"
           id=""
-          placeholder="Buscar..."
-          onChange={() => alert("change")}
+          onChange={() => alert("Work in progress")}
         >
           <option value="0"></option>
-          {mostra.mdr.map((item) => (
-            <option value={item.id} key={item.id}>
-              {item.name}
-            </option>
-          ))}
+           {mostra.mdr.map((item) => (
+             <option key={item.id} value={item.id} {...item}>{item.name}</option>
+           ))}
         </select>
 
         {/* <input
@@ -44,7 +42,7 @@ const Serch = ({useInitialState}) => {
           <img src={serchIcon} className="self-center w-4" alt="lupa" />
         </i>
       </div>
-    </section>
+    // </section>
   );
 };
 
