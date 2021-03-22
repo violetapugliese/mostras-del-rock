@@ -5,13 +5,11 @@ import VideoPlayer from "./VideoPlayer";
 import VideoData from "./VideoData";
 import ReactPlayer from "react-player";
 
-import insertVideo from "../hooks/insertVideo";
-
 // const API = "http://localhost:3000/initialState";
 const API = "https://violetapugliese.github.io/mdrAPIRest/db.json";
 
 const Video = ({}) => {
-  const { id } = useParams();
+  const { name } = useParams();
   // console.log(id);
 
   const [mostra, setMostra] = useState({ mdr: [] });
@@ -26,26 +24,24 @@ const Video = ({}) => {
   let music;
   let year;
   let country;
-  let name;
 
-  const found = (id) => {
+  const found = (name) => {
     mostra.mdr.find((item) => {
-      if (item.id === id) {
+      if (item.name === name) {
         music = item.music;
         year = item.year;
         country = item.country;
-        name = item.name;
       }
     });
   };
   
-  if (id == null) {
+  if (name == null) {
     music = "https://www.youtube.com/watch?v=ykxuu8LNluY";
-    name = "Aretha Franklin";
+    let name = "Aretha Franklin";
     year = "1942 - 2018";
     country = "USA";
   } else {
-    found(id);
+    found(name);
   }
 
   // console.log(music);

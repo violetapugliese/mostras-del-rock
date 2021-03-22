@@ -37,7 +37,7 @@ const App = () => {
 
         <Main>
           <Switch>
-            <Route path="/:id">
+            <Route path="/:name">
               <Video />
             </Route>
             <Route path="/" exact>
@@ -45,13 +45,13 @@ const App = () => {
             </Route>
           </Switch>
 
-          <div className="flex flex-col items-center justify-between">
+          <div className="flex flex-col items-center justify-between h-full">
             <Serch />
             {data.mdr.length > 0 && (
               <List key="">
                 {data.mdr.map((item) => (
                   <Link
-                    to={`${item.id}`}
+                    to={`${item.name}`}
                     key={item.id}
                     className="w-full flex items-center justify-center "
                   >

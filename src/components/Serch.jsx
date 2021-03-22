@@ -19,10 +19,10 @@ const [mostra, setMostra] = useState({ mdr: [] });
 
   return (
     // <section className="flex justify-center items-center h-auto w-full pt-20 mb-8 lg:px-24 xl:px-60 lg:flex lg:flex-row lg:items-center lg:justify-between">
-      <div className=" w-5/6 flex justify-center items-center ">
+      <div className=" w-5/6 flex justify-center items-center mb-8 ">
         <select
           name=""
-          className="select w-5/6 h-8 text-md bg-black focus:outline-none myBorder text-white border-2 pl-4 pr-4 rounded-l-full"
+          className="select w-5/6 h-8 text-md bg-black focus:outline-none myBorder text-white border-2 pl-4 pr-4 rounded-l-full "
           id=""
           onChange={() => alert("Work in progress")}
         >
