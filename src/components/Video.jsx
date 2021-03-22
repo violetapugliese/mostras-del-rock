@@ -56,7 +56,7 @@ const Video = ({}) => {
           url={`${music}`}
           frameBorder="0"
           controls
-          // playing
+          playing
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />

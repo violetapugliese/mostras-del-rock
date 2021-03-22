@@ -9,7 +9,7 @@ const ListItem = ({ id, music, name, image}) => {
   return (
     <div className="group flex flew-wrap w-5/6 items-center justify-between h-auto bg-white  shadow-lg rounded-full m-2 p-1 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 ">
       <figure className="inline-block w-14 h-14 photoWidth rounded-full bg-gray-800">
-        <img src={`${image}`} alt="imagen" className="rounded-full" />
+        {/* <img src={`${image}`} alt="imagen" className="rounded-full" /> */}
       </figure>
       <p className="mx-2 text-center">{name}</p>
       <button
