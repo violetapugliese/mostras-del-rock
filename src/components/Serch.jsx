@@ -24,7 +24,7 @@ const [mostra, setMostra] = useState({ mdr: [] });
           name=""
           className="select w-5/6 h-8 text-md bg-black focus:outline-none myBorder text-white border-2 pl-4 pr-4 rounded-l-full "
           id=""
-          onChange={() => alert("Work in progress")}
+          onChange={() => alert("Esta función no ha sido integrada aún")}
         >
           <option value="0"></option>
            {mostra.mdr.map((item) => (

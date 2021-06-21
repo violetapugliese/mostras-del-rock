@@ -58,7 +58,12 @@ html{
   background-color: #4e4e4e;
 }
 .photoWidth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
   min-width: 56px;
+  overflow: hidden;
 }
 .playVideoWidth {
   min-width: 32px;
