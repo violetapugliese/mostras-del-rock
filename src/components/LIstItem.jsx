@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from "react";
-import insertVideo from "../hooks/insertVideo";
+import React from "react";
 
 import playIcon from "../assets/static/playIcon.png";
-// import disLikeIcon from '../assets/static/disLikeIcon.png';
-// import likeIcon from '../assets/static/likeIcon.png'
 
 const ListItem = ({ id, music, name, image}) => {
   return (
