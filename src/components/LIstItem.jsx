@@ -1,5 +1,4 @@
 import React from "react";
-
 import playIcon from "../assets/static/playIcon.png";
 
 const ListItem = ({ id, music, name, image}) => {
