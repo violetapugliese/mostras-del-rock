@@ -48,7 +48,8 @@ module.exports = {
 
   devServer: {
     watchContentBase: true,
-    contentBase: path.resolve(__dirname, "dist"),
+    compress : true,
+    contentBase: path.join(__dirname, 'dist'),
     open: true,
     historyApiFallback: true,
   },
