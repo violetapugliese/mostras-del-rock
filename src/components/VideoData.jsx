@@ -1,6 +1,6 @@
 import React from "react";
 
-const VideoData = ({name, year, country}) => (
+const VideoData = ({name, year, country, info}) => (
   <div className="w-full shadow-md myBorder bg-black text-white border-2 rounded-b-xl p-4 mt-4 myShadow">
     <h3 id="nameArtist" className="text-lg font-semibold">
       {name}
@@ -11,9 +11,7 @@ const VideoData = ({name, year, country}) => (
     <p id="countryArtist" className="text-sm">
       {country}
     </p>
-    {/* <h4 id="videoArtist" className="text-md">
-      Nombre de la canción - Artista
-    </h4> */}
+    <a href={`${info}`} className="myText" >Leer + </a>
   </div>
 );
 

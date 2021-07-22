@@ -24,6 +24,7 @@ const Video = ({}) => {
   let music;
   let year;
   let country;
+  let info;
 
   const found = (name) => {
     mostra.mdr.find((item) => {
@@ -31,6 +32,7 @@ const Video = ({}) => {
         music = item.music;
         year = item.year;
         country = item.country;
+        info = item.info;
       }
     });
   };
@@ -61,7 +63,7 @@ const Video = ({}) => {
           allowFullScreen
         />
       </VideoPlayer>
-      <VideoData name={name} year={year} country={country} />
+      <VideoData name={name} year={year} country={country} info={info}/>
     </div>
   );
 };
